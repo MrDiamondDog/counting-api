@@ -2,7 +2,7 @@
     "name": "counting-api",
     "version": "1.0.0",
     "description": "",
-    "main": "netlify/functions/api.js",
+    "main": ".netlify/functions/api.js",
     "scripts": {
         "build": "tsc"
     },
