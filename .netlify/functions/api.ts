@@ -8,11 +8,11 @@ let num = 0;
 const router = Router();
 router.get("/", (req, res) => {
     num++;
-    res.sendStatus(200).json({number: num, previous: num - 1});
+    res.json({number: num, previous: num - 1});
 });
 
 router.get("/number", (req, res) => {
-    res.sendStatus(200).json({number: num});
+    res.json({number: num});
 });
 
 api.use("/api/", router);
