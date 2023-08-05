@@ -11,6 +11,10 @@ router.get("/", (req, res) => {
     res.send(num);
 });
 
+router.get("/number", (req, res) => {
+    res.send(num);
+});
+
 api.use("/api/", router);
 
 export const handler = serverless(api);
