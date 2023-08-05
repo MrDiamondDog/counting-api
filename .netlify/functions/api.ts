@@ -8,7 +8,7 @@ let num = 0;
 const router = Router();
 router.get("/", (req, res) => {
     num++;
-    res.sendStatus(200).send({number: num, previous: num - 1});
+    res.sendStatus(200).send({message: "Hello World!"});
 });
 
 router.get("/number", (req, res) => {
