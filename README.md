@@ -1,5 +1,7 @@
 # Counting API
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5cc02b9a-315f-4bff-9561-d26480595f0f/deploy-status)](https://counting-api.netlify.app/api/)
+
 Ever just wanted a random number that is never what is was before? Look no further than the counting api! Every request that is sent to `/api/` will increase the resulted number by one.
 
 ## API
