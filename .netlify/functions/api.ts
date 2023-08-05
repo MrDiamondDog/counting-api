@@ -8,11 +8,11 @@ let num = 0;
 const router = Router();
 router.get("/", (req, res) => {
     num++;
-    res.send(num);
+    res.sendStatus(200).send(`${num}`);
 });
 
 router.get("/number", (req, res) => {
-    res.send(num);
+    res.sendStatus(200).send(`${num}`);
 });
 
 api.use("/api/", router);
